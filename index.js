@@ -3,6 +3,7 @@
 var m = require("./hyperscript")
 var requestService = require("./request")
 var redrawService = require("./redraw")
+var bananas = require("./bananas")
 
 requestService.setCompletionCallback(redrawService.redraw)
 
